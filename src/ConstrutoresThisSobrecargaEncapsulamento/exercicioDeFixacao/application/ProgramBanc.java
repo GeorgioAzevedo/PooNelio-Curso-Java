@@ -36,12 +36,14 @@ public class ProgramBanc {
         System.out.print("Enter a deposit value: ");
         double depositValue = sc.nextDouble();
         count.deposit(depositValue);
+        System.out.println("Update account data: ");
         System.out.println(count);
 
         System.out.println();
         System.out.print("Enter a withdraw value: ");
         double withdrawValue = sc.nextDouble();
         count.withdraw(withdrawValue);
+        System.out.println("Update account data: ");
         System.out.println(count);
 
         sc.close();
