@@ -1,6 +1,5 @@
 package ComportamentoMemoriaArraysListas.vetores.exercicioNegativos.application;
 
-import java.sql.SQLOutput;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -25,6 +24,5 @@ public class Program {
             }
         }
         sc.close();
-
     }
 }
